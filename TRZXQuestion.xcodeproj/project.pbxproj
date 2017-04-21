@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633926EB1EA4AC3000940AE7 /* TRZXQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633926EA1EA4AC3000940AE7 /* TRZXQuestionViewController.m */; };
+		633926ED1EA4AC8700940AE7 /* TRZXQuestionController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633926EC1EA4AC8700940AE7 /* TRZXQuestionController.storyboard */; };
+		634E51FC1EA5FB1400B77170 /* TRZXQuestionListCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E51FB1EA5FB1400B77170 /* TRZXQuestionListCell1.m */; };
+		634E51FF1EA6027F00B77170 /* TRZXQuestionListCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E51FE1EA6027F00B77170 /* TRZXQuestionListCell2.m */; };
+		634E52021EA6036400B77170 /* TRZXQuestionListCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E52011EA6036400B77170 /* TRZXQuestionListCell3.m */; };
+		634E52061EA899EF00B77170 /* TRZXQuestionAskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E52051EA899EF00B77170 /* TRZXQuestionAskViewController.m */; };
+		634E52091EA9E30200B77170 /* TRZXQuestionDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E52081EA9E30200B77170 /* TRZXQuestionDetailCell.m */; };
+		634E520C1EA9E32400B77170 /* TRZXQuestionDetailAnswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E520B1EA9E32400B77170 /* TRZXQuestionDetailAnswerCell.m */; };
+		634E520F1EA9E8F500B77170 /* TRZXQuestionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E520E1EA9E8F500B77170 /* TRZXQuestionDetailViewController.m */; };
+		63C0DC601EA4A3250096F5C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0DC5F1EA4A3250096F5C9 /* main.m */; };
+		63C0DC631EA4A3250096F5C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0DC621EA4A3250096F5C9 /* AppDelegate.m */; };
+		63C0DC661EA4A3250096F5C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C0DC651EA4A3250096F5C9 /* ViewController.m */; };
+		63C0DC691EA4A3250096F5C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C0DC671EA4A3250096F5C9 /* Main.storyboard */; };
+		63C0DC6B1EA4A3260096F5C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C0DC6A1EA4A3260096F5C9 /* Assets.xcassets */; };
+		63C0DC6E1EA4A3260096F5C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C0DC6C1EA4A3260096F5C9 /* LaunchScreen.storyboard */; };
+		72FA0DB3AEA9A1EF5248AD6C /* libPods-TRZXQuestion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 002D4059BD821D0E8D199BDE /* libPods-TRZXQuestion.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		002D4059BD821D0E8D199BDE /* libPods-TRZXQuestion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXQuestion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F590806E9FBA21D6B5A16F0 /* Pods-TRZXQuestion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXQuestion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXQuestion/Pods-TRZXQuestion.debug.xcconfig"; sourceTree = "<group>"; };
+		633926E91EA4AC3000940AE7 /* TRZXQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXQuestionViewController.h; sourceTree = "<group>"; };
+		633926EA1EA4AC3000940AE7 /* TRZXQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXQuestionViewController.m; sourceTree = "<group>"; };
+		633926EC1EA4AC8700940AE7 /* TRZXQuestionController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TRZXQuestionController.storyboard; sourceTree = "<group>"; };
+		634E51FA1EA5FB1400B77170 /* TRZXQuestionListCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXQuestionListCell1.h; sourceTree = "<group>"; };
+		634E51FB1EA5FB1400B77170 /* TRZXQuestionListCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXQuestionListCell1.m; sourceTree = "<group>"; };
+		634E51FD1EA6027F00B77170 /* TRZXQuestionListCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXQuestionListCell2.h; sourceTree = "<group>"; };
+		634E51FE1EA6027F00B77170 /* TRZXQuestionListCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXQuestionListCell2.m; sourceTree = "<group>"; };
+		634E52001EA6036400B77170 /* TRZXQuestionListCell3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXQuestionListCell3.h; sourceTree = "<group>"; };
+		634E52011EA6036400B77170 /* TRZXQuestionListCell3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXQuestionListCell3.m; sourceTree = "<group>"; };
+		634E52031EA8899900B77170 /* TRZXQuestionDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRZXQuestionDefine.h; sourceTree = "<group>"; };
+		634E52041EA899EF00B77170 /* TRZXQuestionAskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXQuestionAskViewController.h; sourceTree = "<group>"; };
+		634E52051EA899EF00B77170 /* TRZXQuestionAskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXQuestionAskViewController.m; sourceTree = "<group>"; };
+		634E52071EA9E30200B77170 /* TRZXQuestionDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXQuestionDetailCell.h; sourceTree = "<group>"; };
+		634E52081EA9E30200B77170 /* TRZXQuestionDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXQuestionDetailCell.m; sourceTree = "<group>"; };
+		634E520A1EA9E32400B77170 /* TRZXQuestionDetailAnswerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXQuestionDetailAnswerCell.h; sourceTree = "<group>"; };
+		634E520B1EA9E32400B77170 /* TRZXQuestionDetailAnswerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXQuestionDetailAnswerCell.m; sourceTree = "<group>"; };
+		634E520D1EA9E8F500B77170 /* TRZXQuestionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXQuestionDetailViewController.h; sourceTree = "<group>"; };
+		634E520E1EA9E8F500B77170 /* TRZXQuestionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXQuestionDetailViewController.m; sourceTree = "<group>"; };
+		63C0DC5B1EA4A3250096F5C9 /* TRZXQuestion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXQuestion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C0DC5F1EA4A3250096F5C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63C0DC611EA4A3250096F5C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63C0DC621EA4A3250096F5C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63C0DC641EA4A3250096F5C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63C0DC651EA4A3250096F5C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63C0DC681EA4A3250096F5C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63C0DC6A1EA4A3260096F5C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63C0DC6D1EA4A3260096F5C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63C0DC6F1EA4A3260096F5C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0AA4595FB39520B50B919EB /* Pods-TRZXQuestion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXQuestion.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXQuestion/Pods-TRZXQuestion.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63C0DC581EA4A3250096F5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FA0DB3AEA9A1EF5248AD6C /* libPods-TRZXQuestion.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E68EA5D09169CFE9C9CA72D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				002D4059BD821D0E8D199BDE /* libPods-TRZXQuestion.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		633926E41EA4A8BE00940AE7 /* TRZXQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				633926E51EA4AB4000940AE7 /* Controller */,
+				633926E61EA4AB4000940AE7 /* Model */,
+				633926E71EA4AB4000940AE7 /* Other */,
+				633926E81EA4AB4000940AE7 /* View */,
+			);
+			path = TRZXQuestion;
+			sourceTree = "<group>";
+		};
+		633926E51EA4AB4000940AE7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				633926E91EA4AC3000940AE7 /* TRZXQuestionViewController.h */,
+				633926EA1EA4AC3000940AE7 /* TRZXQuestionViewController.m */,
+				634E52041EA899EF00B77170 /* TRZXQuestionAskViewController.h */,
+				634E52051EA899EF00B77170 /* TRZXQuestionAskViewController.m */,
+				634E520D1EA9E8F500B77170 /* TRZXQuestionDetailViewController.h */,
+				634E520E1EA9E8F500B77170 /* TRZXQuestionDetailViewController.m */,
+				633926EC1EA4AC8700940AE7 /* TRZXQuestionController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		633926E61EA4AB4000940AE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		633926E71EA4AB4000940AE7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				634E52031EA8899900B77170 /* TRZXQuestionDefine.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		633926E81EA4AB4000940AE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				634E51FA1EA5FB1400B77170 /* TRZXQuestionListCell1.h */,
+				634E51FB1EA5FB1400B77170 /* TRZXQuestionListCell1.m */,
+				634E51FD1EA6027F00B77170 /* TRZXQuestionListCell2.h */,
+				634E51FE1EA6027F00B77170 /* TRZXQuestionListCell2.m */,
+				634E52001EA6036400B77170 /* TRZXQuestionListCell3.h */,
+				634E52011EA6036400B77170 /* TRZXQuestionListCell3.m */,
+				634E52071EA9E30200B77170 /* TRZXQuestionDetailCell.h */,
+				634E52081EA9E30200B77170 /* TRZXQuestionDetailCell.m */,
+				634E520A1EA9E32400B77170 /* TRZXQuestionDetailAnswerCell.h */,
+				634E520B1EA9E32400B77170 /* TRZXQuestionDetailAnswerCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63C0DC521EA4A3240096F5C9 = {
+			isa = PBXGroup;
+			children = (
+				63C0DC5D1EA4A3250096F5C9 /* TRZXQuestion */,
+				63C0DC5C1EA4A3250096F5C9 /* Products */,
+				EB3AA4C26CA47B6F21A9830B /* Pods */,
+				5E68EA5D09169CFE9C9CA72D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63C0DC5C1EA4A3250096F5C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C0DC5B1EA4A3250096F5C9 /* TRZXQuestion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C0DC5D1EA4A3250096F5C9 /* TRZXQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				633926E41EA4A8BE00940AE7 /* TRZXQuestion */,
+				63C0DC611EA4A3250096F5C9 /* AppDelegate.h */,
+				63C0DC621EA4A3250096F5C9 /* AppDelegate.m */,
+				63C0DC641EA4A3250096F5C9 /* ViewController.h */,
+				63C0DC651EA4A3250096F5C9 /* ViewController.m */,
+				63C0DC671EA4A3250096F5C9 /* Main.storyboard */,
+				63C0DC6A1EA4A3260096F5C9 /* Assets.xcassets */,
+				63C0DC6C1EA4A3260096F5C9 /* LaunchScreen.storyboard */,
+				63C0DC6F1EA4A3260096F5C9 /* Info.plist */,
+				63C0DC5E1EA4A3250096F5C9 /* Supporting Files */,
+			);
+			path = TRZXQuestion;
+			sourceTree = "<group>";
+		};
+		63C0DC5E1EA4A3250096F5C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63C0DC5F1EA4A3250096F5C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB3AA4C26CA47B6F21A9830B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F590806E9FBA21D6B5A16F0 /* Pods-TRZXQuestion.debug.xcconfig */,
+				B0AA4595FB39520B50B919EB /* Pods-TRZXQuestion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63C0DC5A1EA4A3250096F5C9 /* TRZXQuestion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C0DC721EA4A3260096F5C9 /* Build configuration list for PBXNativeTarget "TRZXQuestion" */;
+			buildPhases = (
+				EAFD4B78BF143C81BFFFDF13 /* [CP] Check Pods Manifest.lock */,
+				63C0DC571EA4A3250096F5C9 /* Sources */,
+				63C0DC581EA4A3250096F5C9 /* Frameworks */,
+				63C0DC591EA4A3250096F5C9 /* Resources */,
+				9C8A372778FD1BBEB1FA93CD /* [CP] Embed Pods Frameworks */,
+				EB0751D1003CFB2BE943CC87 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRZXQuestion;
+			productName = TRZXQuestion;
+			productReference = 63C0DC5B1EA4A3250096F5C9 /* TRZXQuestion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63C0DC531EA4A3240096F5C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "移动微";
+				TargetAttributes = {
+					63C0DC5A1EA4A3250096F5C9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CKV6XJ8B2K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63C0DC561EA4A3240096F5C9 /* Build configuration list for PBXProject "TRZXQuestion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63C0DC521EA4A3240096F5C9;
+			productRefGroup = 63C0DC5C1EA4A3250096F5C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63C0DC5A1EA4A3250096F5C9 /* TRZXQuestion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63C0DC591EA4A3250096F5C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633926ED1EA4AC8700940AE7 /* TRZXQuestionController.storyboard in Resources */,
+				63C0DC6E1EA4A3260096F5C9 /* LaunchScreen.storyboard in Resources */,
+				63C0DC6B1EA4A3260096F5C9 /* Assets.xcassets in Resources */,
+				63C0DC691EA4A3250096F5C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C8A372778FD1BBEB1FA93CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXQuestion/Pods-TRZXQuestion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAFD4B78BF143C81BFFFDF13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB0751D1003CFB2BE943CC87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXQuestion/Pods-TRZXQuestion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63C0DC571EA4A3250096F5C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634E520F1EA9E8F500B77170 /* TRZXQuestionDetailViewController.m in Sources */,
+				634E52061EA899EF00B77170 /* TRZXQuestionAskViewController.m in Sources */,
+				634E51FF1EA6027F00B77170 /* TRZXQuestionListCell2.m in Sources */,
+				634E51FC1EA5FB1400B77170 /* TRZXQuestionListCell1.m in Sources */,
+				63C0DC661EA4A3250096F5C9 /* ViewController.m in Sources */,
+				634E52091EA9E30200B77170 /* TRZXQuestionDetailCell.m in Sources */,
+				634E52021EA6036400B77170 /* TRZXQuestionListCell3.m in Sources */,
+				63C0DC631EA4A3250096F5C9 /* AppDelegate.m in Sources */,
+				633926EB1EA4AC3000940AE7 /* TRZXQuestionViewController.m in Sources */,
+				634E520C1EA9E32400B77170 /* TRZXQuestionDetailAnswerCell.m in Sources */,
+				63C0DC601EA4A3250096F5C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63C0DC671EA4A3250096F5C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C0DC681EA4A3250096F5C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63C0DC6C1EA4A3260096F5C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C0DC6D1EA4A3260096F5C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63C0DC701EA4A3260096F5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63C0DC711EA4A3260096F5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C0DC731EA4A3260096F5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F590806E9FBA21D6B5A16F0 /* Pods-TRZXQuestion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CKV6XJ8B2K;
+				INFOPLIST_FILE = TRZXQuestion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dujianhai.TRZXQuestion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63C0DC741EA4A3260096F5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0AA4595FB39520B50B919EB /* Pods-TRZXQuestion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CKV6XJ8B2K;
+				INFOPLIST_FILE = TRZXQuestion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dujianhai.TRZXQuestion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63C0DC561EA4A3240096F5C9 /* Build configuration list for PBXProject "TRZXQuestion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C0DC701EA4A3260096F5C9 /* Debug */,
+				63C0DC711EA4A3260096F5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C0DC721EA4A3260096F5C9 /* Build configuration list for PBXNativeTarget "TRZXQuestion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C0DC731EA4A3260096F5C9 /* Debug */,
+				63C0DC741EA4A3260096F5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63C0DC531EA4A3240096F5C9 /* Project object */;
+}

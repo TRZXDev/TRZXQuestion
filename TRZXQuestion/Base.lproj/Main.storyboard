@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aLK-ei-ePR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Z5b-rj-j97">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UOQ-Y8-aWH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="aLK-ei-ePR" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UUf-Gb-MDC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EPt-LA-Ycj" kind="relationship" relationship="rootViewController" id="0uv-fG-1US"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="297" y="-190"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MDY-W1-cu6">
+            <objects>
+                <viewController id="EPt-LA-Ycj" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ETm-zw-Yai"/>
+                        <viewControllerLayoutGuide type="bottom" id="f8j-oS-MIH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AqE-T4-b44">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PdH-SB-wfc">
+                                <rect key="frame" x="112" y="308.5" width="150" height="50"/>
+                                <color key="backgroundColor" red="0.82745098039999998" green="0.1450980392" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="GZO-P9-xHI"/>
+                                    <constraint firstAttribute="width" constant="150" id="gHD-Ad-Rol"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="进入问答页面">
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapButtonClick:" destination="EPt-LA-Ycj" eventType="touchUpInside" id="HXL-Ts-Y5P"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PdH-SB-wfc" firstAttribute="centerX" secondItem="AqE-T4-b44" secondAttribute="centerX" id="6dv-73-05T"/>
+                            <constraint firstItem="PdH-SB-wfc" firstAttribute="centerY" secondItem="AqE-T4-b44" secondAttribute="centerY" id="JkA-VV-YVF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="QTn-Ml-Jee"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e7E-UR-4JI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="946" y="-190"/>
+        </scene>
+    </scenes>
+</document>
